@@ -30,4 +30,6 @@ export class DataBidingComponent implements OnInit{
     this.position.x = valor.offsetX;
     this.position.y = valor.offsetY;
   }
+
+  
 }
