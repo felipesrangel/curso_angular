@@ -11,7 +11,7 @@ export class DiretivasAtributosComponent implements OnInit{
   public backgroundColor: string = "red";
 
   public nome: string = "";
-  public list: Array<{nome: string}> = [];
+  public list: Array<{nome: string}> = [{nome: "Luiz Rangel"}];
   constructor(){};
 
   ngOnInit(): void { 
