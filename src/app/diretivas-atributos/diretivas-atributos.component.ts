@@ -12,6 +12,8 @@ export class DiretivasAtributosComponent implements OnInit{
 
   public nome: string = "";
   public list: Array<{nome: string}> = [{nome: "Luiz Rangel"}];
+
+  public date: Date = new Date();
   constructor(){};
 
   ngOnInit(): void { 
