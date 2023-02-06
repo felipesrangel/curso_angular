@@ -5,7 +5,16 @@ import { Component, OnInit} from '@angular/core';
   template: `
   <!-- <app-diretivas-estruturais></app-diretivas-estruturais>
    -->
-  <app-diretivas-atributos></app-diretivas-atributos>
+  <app-diretivas-atributos>
+    <h1>Aulas de Diretivas Atributo</h1>
+    <h3>Final da aula</h3>
+  </app-diretivas-atributos>
+
+  <app-diretivas-atributos>
+    <h1>Luiz Rangel</h1>
+    <h3>Paulo Otavio</h3>
+  </app-diretivas-atributos>
+
   <router-outlet></router-outlet>
   
   `
