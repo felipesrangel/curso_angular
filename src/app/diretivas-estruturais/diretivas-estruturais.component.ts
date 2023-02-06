@@ -15,6 +15,9 @@ export class DiretivasEstruturaisComponent implements OnInit{
     {nome: "Marcos Souza", idade: 36},
     {nome: "Matheus Rangel", idade: 55} 
   ];
+
+  public nome: string = 'luiz';
+  public constructor(){}
   ngOnInit(): void{
 
     setInterval(() => {
@@ -41,4 +44,6 @@ export class DiretivasEstruturaisComponent implements OnInit{
   public onClickEventList(event: number){
     this.list.splice(event, 1);
   }
+
+
 }
