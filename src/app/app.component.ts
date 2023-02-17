@@ -15,14 +15,23 @@ import { Component, OnInit} from '@angular/core';
     <h1>Luiz Rangel</h1>
     <h3>Paulo Otavio</h3>
   </app-diretivas-atributos>
-
-  <router-outlet></router-outlet>-->
+  
   <app-diretivas-atributos></app-diretivas-atributos>
   <app-new-component></app-new-component>
+  -->
   
+  <app-input [contador]="addValue"></app-input>
+  <br>
+  <button (click)="add()"> Add </button>
+  <router-outlet></router-outlet>
   `
 })
 export class AppComponent implements OnInit{
+  public destruir: boolean = true;
+  public addValue: number = 0;
+  public add(){
+    this.addValue += 1;
+  }
   constructor(){}
 
   ngOnInit(): void {
